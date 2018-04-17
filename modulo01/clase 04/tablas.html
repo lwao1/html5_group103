@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tablas</title>
+</head>
+<body>
+	<!-- Tabla normal: -->
+	<h2>Normal:</h2>
+	<table style="border: 1px solid #000;">
+		<tr>
+			<td style="border: 1px solid #000;">Celda 1</td>
+			<td style="border: 1px solid #000;">Celda 2</td>
+			<td style="border: 1px solid #000;">Celda 3</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #000;">Celda 4</td>
+			<td style="border: 1px solid #000;">Celda 5</td>
+			<td style="border: 1px solid #000;">&nbsp;</td>
+		</tr>
+	</table>
+
+	<!-- Tabla usando colspan: -->
+	<h2>Colspan:</h2>
+	<table style="border: 1px solid #000;">
+		<tr>
+			<td style="border: 1px solid #000;">Celda 1</td>
+			<td colspan="2" style="border: 1px solid #000;">Celda 2</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #000;">Celda 4</td>
+			<td style="border: 1px solid #000;">Celda 5</td>
+			<td style="border: 1px solid #000;">Celda 6</td>
+		</tr>
+	</table>
+
+	<h2>Rowspan</h2>
+	<!-- Tabla usando rowspan: -->
+	<table style="border: 1px solid #000;">
+		<tr>
+			<td style="border: 1px solid #000;">Celda 1</td>
+			<td style="border: 1px solid #000;">Celda 2</td>
+			<td rowspan="2" style="border: 1px solid #000;">Celda 3</td>
+
+		</tr>
+		<tr>
+			<td style="border: 1px solid #000;">Celda 4</td>
+			<td style="border: 1px solid #000;">Celda 5</td>
+		</tr>
+
+		<tr>
+			<td style="border: 1px solid #000;">Celda 7</td>
+			<td style="border: 1px solid #000;">Celda 8</td>
+			<td style="border: 1px solid #000;">Celda 9</td>
+		</tr>
+	</table>
+
+	<h2>Header</h2>
+	<table style="border: 1px solid #000;">
+		<thead>
+			<tr>
+				<th style="border: 1px solid #000;">Cabecera 1</th>
+				<th style="border: 1px solid #000;">Cabecera 2</th>
+				<th style="border: 1px solid #000;">Cabecera 3</th>
+			</tr>
+		</thead>
+		<tr>
+			<td style="border: 1px solid #000;">Celda 1</td>
+			<td style="border: 1px solid #000;">Celda 2</td>
+			<td style="border: 1px solid #000;">Celda 3</td>
+		</tr>
+		<tr>
+			<td style="border: 1px solid #000;">Celda 4</td>
+			<td style="border: 1px solid #000;">Celda 5</td>
+			<td style="border: 1px solid #000;">Celda 6</td>
+		</tr>
+	</table>
+</body>
+</html>
