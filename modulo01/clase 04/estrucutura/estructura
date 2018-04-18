@@ -1,5 +1,8 @@
 se agregan las siguientes etiquetas semanticas:
 
+div
+-- Contenedor base para insertar contenido HTML
+
 header 
 -- contenedor de informacion principal de tu contenido
 
@@ -17,7 +20,6 @@ article
 
 footer
 -- contenedor de informacion de cierre de tu contenido
-
 
 main
 -- contenedor de toda tu información
